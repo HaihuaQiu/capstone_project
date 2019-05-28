@@ -1,0 +1,5 @@
+model_checkpoint_path: "crnn_model-115"
+all_model_checkpoint_paths: "crnn_model-90"
+all_model_checkpoint_paths: "crnn_model-100"
+all_model_checkpoint_paths: "crnn_model-110"
+all_model_checkpoint_paths: "crnn_model-115"
