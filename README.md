@@ -2,12 +2,16 @@
 
 ## 本项目由于采用了深层网络模型，因此很难跑在本地电脑上，所有采用了Google免费提供的开源工具colab进行训练。
 
+## 由于udacity发送文件大小的限制，以及作者的git lfs总存储量已经超过免费额度1G的缘故，故不提供数据集，数据集的下载网址为：
+## https://github.com/udacity/cn-machine-learning/tree/master/mathematical_expression_recognition
+## 数据集下载成功后解压缩到data文件夹中，这样data文件夹里具有一个有10万张图片training名称的文件夹和一个traning.csv标签文件。这样就可以运行代码里的make_tfrecord()函数制作训练集、验证集和测试集的tfrecord格式文件。
+
 ## 项目的组成文件：
 ### 1.crnn_model.py:是构建模型，并训练模型的文件
 ### 2.dataset.util.py:是把10万张图片和标签压缩成tfrecord并读取tfrerecord文件到模型中训练的文件。
 ### 3.util.py:是存储一些项目中用到的辅助函数的文件。
 ### 4.running_test.ipynb:是运行整个项目的文件。
-### 5.data:是放置tfrecord数据集的文件夹。上传时，把10万张图片和标签删了，以提高上传效率。如果需要，可以自行下载training图片文件夹和traning.csv标签文件到data文件中。
+### 5.data(缺）:是放置tfrecord数据集的文件夹。上传时，把10万张图片和标签删了，以提高上传效率。如果需要，可以自行下载training图片文件夹和traning.csv标签文件到data文件中。
 ### 6.saved_model:是放置训练好的模型的文件夹。
 ### 7.test_result:是放置训练过程中产生的数据的文件夹。
 
