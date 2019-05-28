@@ -4,7 +4,7 @@
 
 ## 由于udacity发送文件大小的限制，以及作者的git lfs总存储量已经超过免费额度1G的缘故，故不提供数据集，数据集的下载网址为：
 ## https://github.com/udacity/cn-machine-learning/tree/master/mathematical_expression_recognition
-## 数据集下载成功后解压缩到data文件夹中，这样data文件夹里具有一个有10万张图片training名称的文件夹和一个traning.csv标签文件。这样就可以运行代码里的make_tfrecord()函数制作训练集、验证集和测试集的tfrecord格式文件。
+## 数据集下载成功后解压缩到data文件夹中，这样data文件夹里具有一个有10万张图片training名称的文件夹和一个traning.csv标签文件，具体可以参考项目中的refer_data.png图片所示。这样就可以运行代码里的make_tfrecord()函数制作训练集、验证集和测试集的tfrecord格式文件。
 
 ## 项目的组成文件：
 ### 1.crnn_model.py:是构建模型，并训练模型的文件
