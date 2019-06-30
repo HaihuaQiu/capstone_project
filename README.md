@@ -1,6 +1,6 @@
 # 项目说明
 
-## 本项目由于采用了深层网络模型，因此很难跑在本地电脑上，所有采用了Google免费提供的开源工具colab进行训练。
+## 本项目由于采用了深层网络模型，因此很难跑在本地电脑上，所以采用了Google免费提供的开源工具colab进行训练。
 
 ## 由于udacity发送文件大小的限制，以及作者的git lfs总存储量已经超过免费额度1G的缘故，故不提供数据集，数据集的下载网址为：
 ## https://github.com/udacity/cn-machine-learning/tree/master/mathematical_expression_recognition
@@ -34,4 +34,4 @@
 #### 5.2 train函数有三种模式：
     5.2.1 index=0:表示从零开始训练模型。
     5.2.2 index=1:表示接着saved_model中的模型继续训练。
-    5.2.3index=2:表示只评估saved_model中的模型性能而不做任何训练。
+    5.2.3 index=2:表示只评估saved_model中的模型性能而不做任何训练。
